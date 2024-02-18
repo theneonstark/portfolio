@@ -1,0 +1,22 @@
+.nav{
+    height: 100px;
+    .header{
+        height: 100%;
+        max-width: 1080px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        span{
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        a{
+            box-icon{
+                width: 2rem;
+                height: 2rem;
+                margin-left: 0.5rem;
+            }
+        }
+    }
+}
